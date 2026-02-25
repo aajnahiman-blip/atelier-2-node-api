@@ -1,8 +1,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
-const config = require('./config.json')
-const {success,error} = require('./functions')
+const config = require('../config.json')
+const {success,error} = require('../functions')
 const cors = require('cors')
 
 const app = express()
