@@ -119,9 +119,7 @@ function createID() {
 app.use(config.rootAPI + 'members', MembersRouter)
 
 // ===== Start Server =====
-app.listen(config.port, () => {
-  console.log('Started on port ' + config.port)
-})
+module.exports = app;
 
 
 // app.use(cors({
